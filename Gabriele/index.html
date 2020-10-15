@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <style>
+        .output {
+            width: 100%;
+            border: 2px solid rgb(179, 175, 175);
+            height: 3.5rem;
+            border-radius: 5px;
+        }
+        #generator {
+            width: 100%;
+            background-color: rgb(6, 167, 6);
+            color: white;
+            font-weight: bold;
+            height: 2rem;
+            border-radius: 5px;
+            margin: 1rem 0;
+        }
+
+        #length {
+            width: 30%;
+            height: 1.5rem;
+            border: 2px solid rgb(179, 175, 175);
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    
+<h1 class="output"></h1>
+
+<select name="length" id="length">
+    <option value="20">20</option>
+    <option value="18">18</option>
+    <option value="16">16</option>
+    <option value="14">14</option>
+    <option value="12">12</option>
+    <option value="10">10</option>
+    <option value="8">8</option>
+    
+    
+</select>
+
+<label><input type="checkbox"> Use mixed case?</label>
+<button id="generator">Generate password</button>
+
+<script src="index.js"></script>
+</body>
+</html>
