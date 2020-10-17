@@ -1,0 +1,29 @@
+.center {
+  text-align: center;
+  width: 90vw;
+  margin: 10px auto;
+}
+.block {
+  display: block;
+}
+.bordered {
+  border: 2px solid lightgrey;
+  border-radius: 5%;
+}
+.passwordbox {
+  height: 60px;
+  font-size: large;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+.numberbox {
+  width: 200px;
+  height: 1.25rem;
+  margin: 10px 4vw;
+}
+button {
+  height: 3rem;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
